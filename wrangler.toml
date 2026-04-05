@@ -1,9 +1,8 @@
+account_id = "049ff5e84ecf636b53b162cbb580aae6"
 name = "financelog-ai"
-main = "src/index.ts"
+main = "src/worker.ts"
 compatibility_date = "2024-01-01"
 
-[vars]
-DEEPSEEK_API_KEY = ""
-
-[site]
-bucket = "./public"
+[[kv_namespaces]]
+binding = "STATE"
+id = "82b5fca24d77468e8870e25cb69f180e"
